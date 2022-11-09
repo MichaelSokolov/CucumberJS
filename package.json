@@ -1,0 +1,20 @@
+{
+  "name": "cucumbertests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test --parallel 3 -f json:test/report/cucumber_report.json",
+    "report": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.7.0",
+    "chai": "^4.3.7",
+    "chromedriver": "^107.0.3",
+    "cucumber-html-reporter": "^5.5.0",
+    "selenium-webdriver": "^4.6.0"
+  }
+}
